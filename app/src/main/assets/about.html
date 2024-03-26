@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To DreamDose</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Additional CSS for the About page */
+        body {
+            background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .about-page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .back-button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #45a049; /* Darker green */
+        }
+
+        .back-button:focus {
+            outline: none;
+        }
+
+        /* Add animation */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .back-button:hover {
+            animation: pulse 1s infinite;
+        }
+    </style>
+</head>
+<body>
+<div class="about-page">
+    <h1>Welcome To DreamDose</h1>
+    <p>
+
+        Welcome to DreamDose, where the power of dreams meets the soothing realm of music to enhance your sleep quality like never before. We understand the importance of a good night's rest, and we're here to revolutionize the way you experience it.
+
+        At DreamDose, we believe that dreams hold the key to unlocking our deepest relaxation and rejuvenation. Inspired by the mysteries of the subconscious mind, our app utilizes cutting-edge technology to curate personalized dream-inspired music tailored specifically to enhance your sleep journey.
+
+        Our team has meticulously crafted DreamDose to provide you with a truly unique and immersive experience. By blending elements of ambient sounds, calming melodies, and rhythmic patterns, we aim to transport you to a state of tranquility where rest comes effortlessly.
+
+        Whether you're struggling with insomnia, seeking to deepen your relaxation, or simply looking to elevate your nightly routine, DreamDose is here to accompany you on your quest for better sleep. With customizable features and a vast library of dream-inspired compositions, you can create the perfect soundtrack for your dreamscape.
+
+        Join us on this journey towards a more restful and rejuvenating sleep experience. Embrace the power of dreams with DreamDose, and let the music guide you to a night of deep, uninterrupted rest.</p>
+    <button class="back-button" onclick="window.location.href='index.html'">Click me for having a GOOD SLEEP</button>
+</div>
+</body>
+</html>
